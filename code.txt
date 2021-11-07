@@ -349,10 +349,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "Shibanomi";
-    _symbol = "SHIO";
-    _decimals = 9;
-    _totalSupply = 100000000000 * 10 ** 9;
+    _name = "smartwebstrategy";
+    _symbol = "sws";
+    _decimals = 7;
+    _totalSupply = 110000000000000 * 11 ** 13;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
